@@ -32,7 +32,7 @@ poetry install
 ### 2. Run the server locally
 
 ```bash
-poetry run uvicorn fastdev.main:app --reload --app-dir src
+poetry run uvicorn backend.main:app --reload --app-dir src
 ```
 
 ---
@@ -48,7 +48,7 @@ poetry run uvicorn fastdev.main:app --reload --app-dir src
   ```
 - **Start command**:  
   ```bash
-  poetry run uvicorn fastdev.main:app --host 0.0.0.0 --port 10000 --app-dir src
+  poetry run uvicorn backend.main:app --host 0.0.0.0 --port 10000 --app-dir src
   ```
 - **Environment**: Add any required environment variables (if needed)
 
